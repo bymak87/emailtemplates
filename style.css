@@ -1,0 +1,30 @@
+body {
+  margin: 10px 0;
+  padding: 0 10px;
+  background: #F9F2E7;
+  font-size: 13px;
+}
+table {
+  border-collapse: collapse;
+      }
+td {
+  font-family: arial, sans-serif;
+  color: #333333;
+}
+
+@media only screen and (max-width: 480px) {
+  body,table,td,p,a,li,blockquote {
+    -webkit-text-size-adjust:none !important;
+        }
+table {
+  width: 100% !important;
+}
+
+.responsive-image img {
+  height: auto !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+}
+
